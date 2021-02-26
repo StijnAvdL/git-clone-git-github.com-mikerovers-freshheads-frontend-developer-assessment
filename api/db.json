@@ -63,10 +63,6 @@
         {
             "id": 3,
             "tag": "Veiligheid"
-        },
-        {
-            "id": 4,
-            "tag": "Projectmanagement"
         }
     ],
     "innovations": [
@@ -74,7 +70,6 @@
             "id": 4,
             "innovator_id": 23,
             "createdAt": "2020-02-29T01:09:20.639Z",
-            "category": "duurzaamheid",
             "title": "Duurzaam vissen zonder netten",
             "slug": "duurzaam-vissen-zonder-netten",
             "state": "solution",
@@ -82,42 +77,31 @@
             "solution": "Een online platform voor vissers waar ze hulpmiddelen of tools vinden die hun helpen om succesvol en duurzaam te vissen. In de toolbox vind je 2 soorten ontwikkelingen: \n 1) online cursussen; \n 2) evenementen en trainingen",
             "request_for_help": "Op 2 manieren hebben wij hier hulp voor nodig: \n 1) Door mede vissers erop te wijzen dat dit platform bestaat; \n 2) Door jezelf aan te melden als innovatieve visser bij dit platform.",
             "x-factor": "Wie houdt er nou niet van vissticks?",
-            "tags": [
-                1,
-                4
-            ]
+            "category": 2
         },
         {
             "id": 2,
             "innovator_id": 3,
             "createdAt": "2020-06-12T21:21:57.634Z",
-            "category": "auto-industrie",
             "title": "Innovatief sleutelen aan vervallen auto's",
             "slug": "innovatief-sleutelen-aan-vervallen-autos",
             "reason": "Proactief onderhoud, vervallen auto's is het nieuwe goud. Steeds meer auto's worden naar de sloop gebracht.",
             "solution": "Met behulp van een platform hebben wij nieuw leven geblazen in de 2e hands auto industrie.",
             "requests_for_help": "Om dit platform verder uit te breiden zoeken wij opgeknapte auto onderdelen.",
             "x-factor": "Een wiel van een auto is rond. Dit noem ik daarom ook liever de o-factor.",
-            "tags": [
-                1,
-                2
-            ]
+            "category": 2
         },
         {
             "id": 5,
             "innovator_id": 5,
             "createdAt": "2020-05-29T16:04:31.903Z",
-            "category": "duurzaamheid",
             "title": "Duurzaam ontwikkelen met Typescript",
             "slug": "duurzaam-ontwikkelen-met-typescript",
             "reason": "Kosten voor server kunnen de pan uit reizen. Deze kosten ",
             "solution": "Met Typescript kunnen we deze kosten flink verminderen. Door Typescript kunnen developers type-safe code schrijven. Hierdoor worden minder fouten gemaakt. Met minder fouten, hoeven minder builds uitgevoerd te worden. Hierdoor kan stroom bespaard worden.",
             "requests_for_help": "Wij zoeken developers met ervaring in Typescript.",
             "x-factor": null,
-            "tags": [
-                1,
-                3
-            ]
+            "category": 1
         }
     ]
 }

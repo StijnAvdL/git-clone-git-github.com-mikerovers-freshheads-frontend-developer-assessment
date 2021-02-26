@@ -3,7 +3,7 @@ Dit project ondersteund zowel `Javascript` als `TypeScript`.
 
 ## Installeren
 ```bash
-git clone git@github.com:freshheads/freshheads-frontend-developer-assessment.git
+git clone git@github.com:mikerovers/freshheads-frontend-developer-assessment.git
 ```
 
 Run `npm install` to install all external packages.
@@ -14,6 +14,15 @@ In de project map kun je het volgende uitvoeren:
 ### `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) om het in de browser te bekijken.
+
+## Fonts + afbeeldingen
+Het logo is meegeleverd in de projectmap.
+
+In het design wordt de font Barlow gebruikt.
+Fonts kunnen worden ingeladen met de volgende regel:
+```html
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700" rel="stylesheet">
+```
 
 ## API
 Via het `npm start` command, is de API beschikbaar via poort 3001.
