@@ -68,7 +68,7 @@
     "innovations": [
         {
             "id": 4,
-            "innovator_id": 23,
+            "user_id": 23,
             "createdAt": "2020-02-29T01:09:20.639Z",
             "title": "Duurzaam vissen zonder netten",
             "slug": "duurzaam-vissen-zonder-netten",
@@ -81,25 +81,25 @@
         },
         {
             "id": 2,
-            "innovator_id": 3,
+            "user_id": 3,
             "createdAt": "2020-06-12T21:21:57.634Z",
             "title": "Innovatief sleutelen aan vervallen auto's",
             "slug": "innovatief-sleutelen-aan-vervallen-autos",
             "reason": "Proactief onderhoud, vervallen auto's is het nieuwe goud. Steeds meer auto's worden naar de sloop gebracht.",
             "solution": "Met behulp van een platform hebben wij nieuw leven geblazen in de 2e hands auto industrie.",
-            "requests_for_help": "Om dit platform verder uit te breiden zoeken wij opgeknapte auto onderdelen.",
+            "request_for_help": "Om dit platform verder uit te breiden zoeken wij opgeknapte auto onderdelen.",
             "x-factor": "Een wiel van een auto is rond. Dit noem ik daarom ook liever de o-factor.",
             "category": 2
         },
         {
             "id": 5,
-            "innovator_id": 5,
+            "user_id": 5,
             "createdAt": "2020-05-29T16:04:31.903Z",
             "title": "Duurzaam ontwikkelen met Typescript",
             "slug": "duurzaam-ontwikkelen-met-typescript",
             "reason": "Kosten voor server kunnen de pan uit reizen. Deze kosten ",
             "solution": "Met Typescript kunnen we deze kosten flink verminderen. Door Typescript kunnen developers type-safe code schrijven. Hierdoor worden minder fouten gemaakt. Met minder fouten, hoeven minder builds uitgevoerd te worden. Hierdoor kan stroom bespaard worden.",
-            "requests_for_help": "Wij zoeken developers met ervaring in Typescript.",
+            "request_for_help": "Wij zoeken developers met ervaring in Typescript.",
             "x-factor": null,
             "category": 1
         }

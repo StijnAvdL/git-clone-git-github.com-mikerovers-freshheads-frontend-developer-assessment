@@ -1,5 +1,10 @@
 @import '~normalize.css';
 
+$margin: 48px;
+$appbarHeight: 64px;
+
+$red-light: rgb(253,241,240);
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -7,4 +12,16 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.appbar {
+    width: 100%;
+    background-color: $red-light;
+    overflow: auto;
+    height: 64px; 
+
+    .icon {
+        margin: 8px $margin;
+        height: $appbarHeight - 16;
+    }
 }
