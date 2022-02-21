@@ -48,11 +48,17 @@ const Innovations = () => {
 
     return (
         <div className='innovations'>
-            Categorie: <select onChange={e => setCategory(parseInt(e.target.value))}>
-                {categories.map((category) => (
-                    <option value={category.id}>{category.tag}</option>
-                ))}
-            </select>
+            <div className='header'>
+                <h1 className='title'>{`Innovatie(s) ${innovations.length}`}</h1>
+
+                <div className='categories'>
+                    Categorie: <select onChange={e => setCategory(parseInt(e.target.value))}>
+                        {categories.map((category) => (
+                            <option value={category.id}>{category.tag}</option>
+                        ))}
+                    </select>
+                </div>
+            </div>
                 
             <div className='container'>
                 {innovations.map((innovation) => (
@@ -61,8 +67,9 @@ const Innovations = () => {
                             <div className='tag'>{_.filter(categories, (cat) => innovation.category === cat.id)[0].tag}</div>
                             <div className='title'>{innovation.title}</div>
                             <div className='user'>
-                                <div className='name'>{innovation.user ? innovation.user.displayName : "Onbekend"}</div>
-                                <div className='job-title'>{innovation.user ? `${innovation.user.jobTitle} @ ${innovation.user.companyName}`  : null}</div>
+                                {innovation.user && (<img className='picture' src={innovation.user.avatar} alt={innovation.user.avatar} />)}
+                                <div className='name'>{innovation.user?.displayName || 'Onbekend'}</div>
+                                <div className='job-title'>{innovation.user ? `${innovation.user.jobTitle} @ ${innovation.user.companyName}` : null}</div>
                             </div>
                             
                         </div>

@@ -20,16 +20,31 @@ body {
     width: 100%;
     background-color: $red-light;
     overflow: auto;
-    height: 64px; 
+    height: $appbarHeight; 
 
     .icon {
         margin: 8px $margin;
-        height: $appbarHeight - 16;
+        height: $appbarHeight - 20;
     }
 }
 
 .innovations {
-    margin: $margin;
+    margin: 32px $margin;
+    .header {
+        position: relative;
+        .title {
+            color: $red-dark;
+        }
+
+        .categories {
+            position: absolute;
+            right: $margin;
+            top: 0px;
+        }
+
+    }
+    
+    
 
     .container {
         display: flex;
@@ -60,6 +75,15 @@ body {
                     position: absolute; 
                     bottom: 0; 
                     margin-bottom: 24px;
+
+                    .picture {
+                        float: left;
+                        height: 32px;
+                        width: 32px;
+                        border-radius: 50%;
+                        margin-right: 12px;
+                        border: 0px;
+                    }
 
                     .name {
                         color: $red-dark;
