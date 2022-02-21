@@ -1,10 +1,12 @@
 import {useState, useEffect} from 'react';
 import _ from "underscore"
+import GetCategories from "../../hooks/Categories"
 
 const Innovations = () => {
     const [innovations, setInnovations] = useState([])
-    const [categories, setCategories] = useState([])
     const [category, setCategory] = useState(0)
+
+    const categories = GetCategories();
 
     useEffect(() => {
         async function fetchInnovations() {
@@ -31,20 +33,6 @@ const Innovations = () => {
 
         fetchInnovations()
     }, [category])   
-
-    // fetch all tags
-    useEffect(() => {
-        async function fetchCategories() {     
-            let tags = await fetch('http://localhost:3001/tags')
-            tags = await tags.json()
-
-            // add categorie all for displaying all items
-            tags.unshift({"id": 0, "tag": "Alle"})
-            setCategories(tags)
-        }  
-
-        fetchCategories()
-    }, [])
 
     return (
         <div className='innovations'>

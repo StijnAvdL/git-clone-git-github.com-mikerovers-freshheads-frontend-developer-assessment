@@ -1,5 +1,5 @@
-import InnovationList from "../components/Innovations"
-import Appbar from "../components/Appbar"
+import InnovationList from "../features/components/Innovations"
+import Appbar from "../features/components/Appbar"
 
 const Innovations = () => {
     return (
